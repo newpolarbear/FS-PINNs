@@ -1,1 +1,4 @@
 # [FS-PINNs for Biot's Model: A combination of physics-informed neural networks with the fixed-stress splitting iteration for solving Biot's model]
+
+
+In this paper, we aim to solve Biot's consolidation model using physics-informed neural networks. Based on the fixed-stress splitting iterative method \cite{mikelic2013convergence}, loss functions are designed separately for the displacement and the pressure variables. Such a strategy allows us to train two independent and small neural networks. The fixed-stress iterative algorithm is utilized to couple these variables and improve the performance of the neural network approximations of the solution. Our numerical experiments demonstrate the effectiveness of this approach, and error analysis is provided to support the capability of the fixed-stress splitting-based PINNs for accurately approximating the solution of Biot's model.
